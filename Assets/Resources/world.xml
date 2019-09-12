@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<world number="1">
+
+<level number = "1" direction="0">
+
+	<Box color="start" posx="0" posy="0" star="no">box</Box>
+ 	<Box color="gray" posx="0" posy="1" star="no">box</Box>
+
+ 	<Box color="red" posx="0" posy="3" star="no">box</Box>
+ 	<Box color="gray" posx="1" posy="3" star="yes">box</Box>
+ 	<Box color="gray" posx="2" posy="2" star="no">box</Box>
+ 	<Box color="green" posx="2" posy="3" star="yes">box</Box>
+ 	<Clone posx="2" posy="1">clone</Clone>
+ 	<Box color="gray" posx="3" posy="1" star="no">box</Box>
+ 	<Box color="end" posx="4" posy="1" star="no">box</Box>
+
+ 	<Quote>A thousands miles journey starts with a single step.</Quote>
+
+ 	<!--
+ 	<Staires direction="0" posx="0" posy="2">staires</Staires>
+ 	-->
+</level>
+
+<level number = "2" direction="90">
+
+	<Box color="start" posx="0" posy="0" star="no">box</Box>
+ 	<Box color="fall" posx="0" posy="1" star="no">box</Box>
+ 	<Box color="gray" posx="0" posy="2" star="no">box</Box>
+ 	<Clone posx="0" posy="3">clone</Clone>
+ 	<Box color="gray" posx="0" posy="4" star="no">box</Box>
+ 	<Box color="end" posx="0" posy="5" star="no">box</Box>
+ 	<Box color="gray" posx="1" posy="3" star="no">box</Box>
+ 	<Box color="gray" posx="-1" posy="3" star="no">box</Box>
+ 	<Box color="gray" posx="2" posy="3" star="no">box</Box>
+ 	<Box color="gray" posx="-2" posy="3" star="no">box</Box>
+
+ 	 <Quote>Nothing Intesresting.</Quote>
+
+</level>
+
+ </world>
+
